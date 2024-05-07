@@ -1,9 +1,16 @@
 <style>
-.hutchies-textbox h2.dxp-text-heading-large {
-	font-size:3rem;
-	position:absolute;
-	top:-50px;
-	left:-100px;
+ :root {
+      /** set the font for all root/body text **/
+      /* --dxp-g-root-font-family: 'hutchies', Helvetica, sans-serif;*/
+      
+      /** set the font for headings **/
+      --dxp-g-heading-font-family: 'hutchies', Times, serif;
+       
+       .hutchies-textbox h2.dxp-text-heading-large {
+        font-size:3rem;
+        position:absolute;
+        top:-50px;
+        left:-100px;
 }
 
 </style>
