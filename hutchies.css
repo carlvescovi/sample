@@ -1,6 +1,6 @@
 <style>
 .hutchies-textbox h2{
-	font-size: calc(var(--dxp-s-text-heading-extra-large-font-size)*1.5);
+	font-size: 5rem;
         position: absolute;
     top: -150px;
     right: 50px;
