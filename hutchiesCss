@@ -1,23 +1,8 @@
 <style>
-@font-face {
-    font-family: 'hutchies';
-       src: url('{basePath}/sfsites/c/resource/font') format('woff');
-}
-     @font-face {
-    font-family: 'helveticaPro';
-       src: url('{basePath}/sfsites/c/resource/helveticaProFont') format('woff');
-}
-
-   :root {
-      /** set the font for all root/body text **/
-      /* --dxp-g-root-font-family: 'hutchies', Helvetica, sans-serif;*/
-      
-      /** set the font for headings **/
-      --dxp-g-heading-font-family: 'hutchies', Times, serif;
-   }
-
-
-[part="hutchies-textbox"] {
-	--dxp-s-text-heading-large-font-size: 4rem;
+.hutchies-textbox h2{
+	font-size: calc(var(--dxp-s-text-heading-extra-large-font-size)*1.5);
+        position: absolute;
+    top: -150px;
+    right: 50px;
 }
 </style>
