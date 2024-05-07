@@ -1,0 +1,3 @@
+.hutchies-textbox {
+	font-weight: calc(var(--dxp-c-text-block-font-weight)*2);
+}
