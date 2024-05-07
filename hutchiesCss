@@ -1,3 +1,5 @@
+<style>
 [part="hutchies-textbox"] {
 	--dxp-s-text-heading-large-font-size: 4rem;
 }
+</style>
